@@ -30,7 +30,7 @@ export default function MainBody() {
       </div>
       <div className="hero-image">
         <img
-          src="images/Saksham.jpeg"
+          src="images/uwp3536740.jpeg"
           alt="Saksham"
           className="responsive-image"
         />

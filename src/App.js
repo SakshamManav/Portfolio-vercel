@@ -10,22 +10,32 @@ import  Contact  from './Components/Contact';
 // import Lightning from './Components/abcd';
 import Squares from './Components/abcd';
 import Particles from './Components/Particles';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import GitHubInfo from './Components/GithubINfo';
+import GitHubProject from './Components/GithubProject';
 function App() {
   useEffect(() => {
     document.body.style.backgroundColor = "black";
   }, []);
   return (
+    <Router>
     <div className="App">
-    {/* <Squares borderColor='#141414' direction='diagonal' speed={1}/> */}
-    <Particles particleCount={300}/>
-      <Navbar/>
-      <MainBody/>
-      <About/>
-      <Project/>
-      <Contact />
       
+      <Routes>
+      
+        <Route path="/" element={<>
+          <Particles particleCount={300}/>
+          <Navbar/>
+          <MainBody/>
+          <About/>
+          <Project/>
+          <Contact/>
+        </>} />
+        <Route path="/github" element={<GitHubInfo />} /> 
+        <Route path="/github/:repoName" element={<GitHubProject />} />
+      </Routes>
     </div>
+  </Router>
   );
 }
 
