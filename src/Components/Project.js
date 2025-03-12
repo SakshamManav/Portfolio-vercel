@@ -14,7 +14,7 @@ const projects = [
   },
   {
     link:"#",
-    title: "Virtual Query Management System",
+    title: "Virtual Queue Management System",
     description: "A system that allows users to book slots for services like hospitals and banks to avoid long queues.",
   },
   // {
