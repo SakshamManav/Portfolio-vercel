@@ -31,7 +31,7 @@ export default function MainBody() {
         <img
           src="images/profile.png"
           alt="Saksham"
-          className="responsive-image"
+          className="responsive-image" 
         />
       </div>
     </section>

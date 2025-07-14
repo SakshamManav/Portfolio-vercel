@@ -118,16 +118,7 @@ function Contact() {
               alt="Github"
             />
           </a>
-          <a
-            href="https://www.instagram.com/sakshammanav/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-              alt="Instagram"
-            />
-          </a>
+          
           <a
             href="https://www.youtube.com/@Chotucoder"
             target="_blank"

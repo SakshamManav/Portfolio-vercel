@@ -14,7 +14,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <ul className="nav-links">
-          {["Home", "About", "Projects", "Contact"].map((item) => (
+          {["About", "Projects", "Contact", "Websites"].map((item) => (
             <li key={item}>
               <Link
                 to={item.toLowerCase()} // Ensure this matches the section IDs
@@ -38,7 +38,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="mobile-menu">
-          {["Home", "About", "Projects", "Contact"].map((item) => (
+          {[ "About", "Projects", "Contact", "Websites" ].map((item) => (
             <li key={item} className="mobile-item">
               <Link
                 to={item.toLowerCase()} // Ensure this matches the section IDs

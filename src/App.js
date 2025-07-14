@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GitHubInfo from './Components/GithubINfo';
 import GitHubProject from './Components/GithubProject';
 import InstagramProject from './Components/InstagramProject';
+import Website from './Components/Website';
 function App() {
   useEffect(() => {
     document.body.style.backgroundColor = "black";
@@ -30,6 +31,7 @@ function App() {
           <MainBody/>
           <About/>
           <Project/>
+          <Website/>
           <Contact/>
           
         </>} />
