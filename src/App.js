@@ -13,6 +13,7 @@ import Particles from './Components/Particles';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GitHubInfo from './Components/GithubINfo';
 import GitHubProject from './Components/GithubProject';
+import InstagramProject from './Components/InstagramProject';
 function App() {
   useEffect(() => {
     document.body.style.backgroundColor = "black";
@@ -30,7 +31,16 @@ function App() {
           <About/>
           <Project/>
           <Contact/>
+          
         </>} />
+        <Route path='/instagram-project' element={
+          <>
+          
+        <Particles particleCount={200}/>
+        
+        <InstagramProject/>
+        </>
+        } />
         <Route path="/github" element={<GitHubInfo />} /> 
         <Route path="/github/:repoName" element={<GitHubProject />} />
       </Routes>

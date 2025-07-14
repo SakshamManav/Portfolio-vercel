@@ -3,7 +3,7 @@ import "./Project.css"
 
 const projects = [
   {
-    link:"https://github.com/SakshamManav/Instagram-Clone",
+    link:"/instagram-project",
     title: "Instagram Clone",
     description: "Built an Instagram Clone using the MERN stack with real-time messaging, authentication, and post-sharing.",
   },

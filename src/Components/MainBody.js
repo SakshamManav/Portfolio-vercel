@@ -7,7 +7,7 @@ export default function MainBody() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["Welcome to my Portfolio!", "I am Saksham Manav, A full stack web developer"],
+      strings: ["Welcome to my Portfolio!", "I’m Saksham Manav - a Web Developer diving into Data Science."],
       typeSpeed: 50, // Speed of typing
       backSpeed: 30, // Speed of deleting
       backDelay: 1000, // Delay before deleting starts
@@ -26,11 +26,10 @@ export default function MainBody() {
         <h1>
           <span ref={typedRef} className="span"></span>
         </h1>
-        {/* <h2>and I am a Developer</h2> */}
       </div>
       <div className="hero-image">
         <img
-          src="images/uwp3536740.jpeg"
+          src="images/profile.png"
           alt="Saksham"
           className="responsive-image"
         />
