@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./About.css";
 export default function About() {
-  const [skillOpen, setSkillOpen] = useState(true);
+  // const [skillOpen, setSkillOpen] = useState(true);
   const [experienceOpen, setExpereienceOpen] = useState(false);
   const [educationOpen, setEducationOpen] = useState(false);
 
@@ -48,8 +48,8 @@ export default function About() {
       <div>
         <div className="about-btn-container">
           <div class="about-btns">
-            <div className="about-container-2">
-              <button
+            {/* <div className="about-container-2"> */}
+              {/* <button
                 class="skills"
                 style={{ color: skillOpen ? "#ffd8b8" : "pink" }}
                 onClick={() => {
@@ -82,6 +82,9 @@ export default function About() {
                     {" "}
                     MongoDB <i class="fa-brands fa-envira"></i>{" "}
                   </span>
+                  <span>
+                    <img  src="images/nextjs.png" alt="nextjs"/>
+                  </span>
                   <span style={{ color: "#8ffc8d", fontWeight: "bold" }}>
                     {" "}
                     Node Js <i class="fa-brands fa-node-js"></i>
@@ -91,14 +94,14 @@ export default function About() {
                     Express
                   </span>
                 </div>
-              )}
-            </div>
+              )} */}
+            {/* </div> */}
             <div className="about-container-2">
               <button
                 class="experience"
                 style={{ color: experienceOpen ? "#ffd8b8" : "pink" }}
                 onClick={() => {
-                  setSkillOpen(false);
+                  // setSkillOpen(false);
                   setEducationOpen(false);
                   setExpereienceOpen(true);
                 }}
@@ -122,7 +125,7 @@ export default function About() {
                 class="education"
                 style={{ color: educationOpen ? "#ffd8b8" : "pink" }}
                 onClick={() => {
-                  setSkillOpen(false);
+                  // setSkillOpen(false);
                   setEducationOpen(true);
                   setExpereienceOpen(false);
                 }}
