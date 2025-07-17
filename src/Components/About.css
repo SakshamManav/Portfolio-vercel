@@ -76,8 +76,9 @@
 .about-btns {
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
-  margin: auto;
+  /* align-items: center; */
+  /* max-width: 1000px; */
+  /* margin: auto; */
   margin-top: 10px 0;
   font-weight: bold;
   /* max-width: 1200px; */
