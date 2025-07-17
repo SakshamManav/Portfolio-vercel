@@ -9,21 +9,17 @@ const projects = [
       "Built an Instagram Clone using the MERN stack with real-time messaging, authentication, and post-sharing.",
   },
   {
-    link: "https://github.com/SakshamManav/Chrome-Extension-Weather",
-    title: "Chrome Extensions",
+    link: "/bgremover-project",
+    title: "Background Remover",
     description:
-      "Developed multiple Chrome extensions, including a weather extension, random jokes generator and game (tic-tac-toe etc.) extensions.",
+      "Created a background remover tool with a sleek UI. Users can upload images and remove backgrounds seamlessly.",
   },
   {
-    link: "#",
-    title: "Virtual Queue Management System",
+    link: "/fee-management-project",
+    title: "Fee Management System",
     description:
-      "A system that allows users to book slots for services like hospitals and banks to avoid long queues.",
+      "A simple and efficient system to manage student records, fees records, track payment history.",
   },
-  // {
-  //   title:"Small Projects",
-  //   description:"Some small projects like Weather App, Minion Translator, Currency Converter etc."
-  // }
 ];
 
 const Project = () => {
@@ -42,7 +38,7 @@ const Project = () => {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <i
-              class="fa-solid fa-hand-pointer"
+              className="fa-solid fa-hand-pointer"
               style={{ fontSize: "20px" }}
             ></i>
           </a>

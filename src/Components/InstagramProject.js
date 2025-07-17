@@ -32,7 +32,7 @@ export default function InstagramProject() {
       <h2 style={{ marginTop: "2rem", textAlign: "center" }}> Demo Video</h2>
       <div style={{ marginTop: "1rem" }}>
         <video width="100%" controls>
-          <source src="/videos/insta-video.webm" type="video/mp4" />
+          <source src="/videos/insta-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
